@@ -2,8 +2,8 @@
 title: Sility
 email: sility@example.com
 description: Sility - Material Design Vcard & CV HTML Template # this means to ignore newlines until "baseurl:"
-baseurl: "/jekyll-sility/" # the subpath of your site, e.g. /blog/
-url: "http://raviteja.gangineni.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://raviteja.gangineni.com/jekyll-sility" # the base hostname & protocol for your site
 twitter_username: rteja91
 github_username:  rteja91
 
