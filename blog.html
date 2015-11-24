@@ -15,15 +15,15 @@ permalink: /blog/
                             <div class="inner">
                             	{%if post.blogimage %}
                                 <a href="{{ post.url | prepend: site.baseurl }}">
-                                    <div class="image" style="background-image: url('{{post.blogimage}}');"></div>
+                                    <div class="image" style="background-image: url('{{ site.url }}{{post.blogimage}}');"></div>
                                 </a>
                                 {%endif%}
                                 <div class="content">
                                     <span class="date">{{post.date | date: "%b %-d, %Y" }}</span>
-                                    <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                                    <h4><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h4>
                                     <footer>
-                                        <span class="comments-link"><a href="{{ post.url | prepend: site.baseurl }}">3 Comments</a></span>
-                                        <span class="share-link"><a href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-share-alt"></i></a></span>
+                                        <span class="comments-link"><a href="{{ post.url | prepend: site.url }}">3 Comments</a></span>
+                                        <span class="share-link"><a href="{{ post.url | prepend: site.url }}"><i class="fa fa-share-alt"></i></a></span>
                                     </footer>
                                 </div>
                                 <!-- end .content -->

@@ -1,7 +1,7 @@
     <!-- Header -->
     <header class="header">
         <div class="top clearfix">
-            <a href="/contact/" class="available"><i class="ion-ios-email-outline"></i><span>Available For Freelance</span></a>
+            <a href="{{ site.url }}/contact/" class="available"><i class="ion-ios-email-outline"></i><span>Available For Freelance</span></a>
             <div class="right-icons">
                 <a href="#" class="open-search header-open-search"><i class="md md-search"></i></a>
                 <a href="#" class="download"><i class="md md-file-download"></i></a>
@@ -31,7 +31,7 @@
         </div>
         <!-- end .top -->
         <div class="bottom clearfix">
-            <div class="title"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <div class="title"><a class="site-title" href="{{ site.url }}/">{{ site.title }}</a>
             </div>
             <div class="header-action-button-wrapper">
                 <a href="#" class="header-action-button action-button"><i class="md md-add"></i></a>
@@ -58,7 +58,7 @@
                     </li> -->
                 {% for page in site.pages %}
 				{% if page.title %}
-				<li><a  href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				<li><a  href="{{ page.url | prepend: site.url }}">{{ page.title }}</a></li>
 				{% endif %}
 				{% endfor %}
                 </ul>
