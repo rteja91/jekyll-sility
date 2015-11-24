@@ -1,0 +1,87 @@
+    <!-- Header -->
+    <header class="header">
+        <div class="top clearfix">
+            <a href="/contact/" class="available"><i class="ion-ios-email-outline"></i><span>Available For Freelance</span></a>
+            <div class="right-icons">
+                <a href="#" class="open-search header-open-search"><i class="md md-search"></i></a>
+                <a href="#" class="download"><i class="md md-file-download"></i></a>
+                <a href="#" class="share"><i class="md md-more-vert"></i></a>
+            </div>
+            <!-- end .right-icons -->
+            <!-- Popup -->
+            <div class="popup">
+                <nav class="social-nav">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a>
+                        </li>
+                        <li><a href="#">Twitter</a>
+                        </li>
+                        <li><a href="#">Linkedin</a>
+                        </li>
+                        <li><a href="#">Google+</a>
+                        </li>
+                        <li><a href="#">Behance</a>
+                        </li>
+                    </ul>
+                    <!-- end .list-unstyled -->
+                </nav>
+                <!-- end .social-nav -->
+            </div>
+            <!-- end .popup -->
+        </div>
+        <!-- end .top -->
+        <div class="bottom clearfix">
+            <div class="title"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            </div>
+            <div class="header-action-button-wrapper">
+                <a href="#" class="header-action-button action-button"><i class="md md-add"></i></a>
+            </div>
+            <!-- end .header-action-button-wrapper -->
+            <a href="#" class="responsive-menu-open">Menu <i class="fa fa-bars"></i></a>
+            <nav class="main-nav">
+                <ul class="list-unstyled">
+                    <!-- <li class="active"><a href="#section1">Home</a>
+                    </li>
+                    <li><a href="#section2">About</a>
+                    </li>
+                    <li><a href="#section3">Skill</a>
+                    </li>
+                    <li><a href="#section4">Experience</a>
+                    </li>
+                    <li><a href="#section5">Education</a>
+                    </li>
+                    <li><a href="#section6">Work</a>
+                    </li>
+                    <li><a href="#section7">Blog</a>
+                    </li>
+                    <li><a href="#section8">Contact</a>
+                    </li> -->
+                {% for page in site.pages %}
+				{% if page.title %}
+				<li><a  href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %}
+				{% endfor %}
+                </ul>
+            </nav>
+            <!-- end .main-nav -->
+        </div>
+        <!-- end .bottom -->
+    </header>
+    <!-- end .header -->
+    <div class="responsive-menu">
+        <a href="#" class="responsive-menu-close">Close <i class="ion-android-close"></i></a>
+        <nav class="responsive-nav"></nav>
+        <!-- end .responsive-nav -->
+    </div>
+    <!-- end .responsive-menu -->
+
+    <!-- Section Navigation -->
+    <!-- <div class="section-nav">
+        <nav class="section1">
+            <a href="#section2" class="forward"><i class="md md-chevron-right"></i></a>
+            <a href="#section1" class="backward"><i class="md md-chevron-left"></i></a>
+        </nav>
+    </div> -->
+    <!-- end .section-nav -->
+    <div class="sections">
+        <div class="sections-wrapper clearfix">

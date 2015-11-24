@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ravi Teja Gangineni</title>
+    <description>Ravi Teja Gangineni is a full stack developer having experience on Frontend Development with Javascript, Jquery, Angular Js.  Backend Development with PHP Frameworks like Slim (REST Micro Framework), Laravel, Magento, Wordpress Etc.,  
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 24 Nov 2015 07:15:27 +0530</pubDate>
+    <lastBuildDate>Tue, 24 Nov 2015 07:15:27 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Entry to IT-BHU(Currently IIT(BHU) Varanasi)</title>
+        <description>&lt;p&gt;
+21st July 2008 My entry to IT-BHU to study Integrated Dual Degree in Pharmaceutics. First time i was out of my state and 
+landed into a feeling of complex new environment. Even though i was able to understand hindi, but when i spoke hindi with obvious mistakes environment sometimes filled with humour or anger in the opposite person.
+Coming to english Speaking... I was good in english but not fluent enough and it was unavoidable thing that i can't speak english with gatekeepers and autorickshaw pullers. 
+&lt;/p&gt;
+
+
+
+
+
+</description>
+        <pubDate>Mon, 21 Jul 2008 17:51:29 +0530</pubDate>
+        <link>http://localhost:4000/blog/engineering/life/2008/07/21/Entry-to-itbhu.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/engineering/life/2008/07/21/Entry-to-itbhu.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>engineering</category>
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>coming from work</title>
+        <description>&lt;p&gt;
+21st July 2008 My entry to IT-BHU to study Integrated Dual Degree in Pharmaceutics. First time i was out of my state and 
+landed into a feeling of complex new environment. Even though i was able to understand hindi, but when i spoke hindi with obvious mistakes environment sometimes filled with humour or anger in the opposite person.
+Coming to english Speaking... I was good in english but not fluent enough and it was unavoidable thing that i can't speak english with gatekeepers and autorickshaw pullers. 
+&lt;/p&gt;
+
+
+
+
+
+</description>
+        <pubDate>Mon, 21 Jul 2008 17:51:29 +0530</pubDate>
+        <link>http://localhost:4000/work/engineering/life/2008/07/21/Entry-to-itbhu.html</link>
+        <guid isPermaLink="true">http://localhost:4000/work/engineering/life/2008/07/21/Entry-to-itbhu.html</guid>
+        
+        
+        <category>work</category>
+        
+        <category>engineering</category>
+        
+        <category>life</category>
+        
+      </item>
+    
+  </channel>
+</rss>

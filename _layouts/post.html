@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+				<!--Single Blog Post -->
+				<section>
+					<div class="container">
+						<div class="single-blog-post">
+							<header class="blog-header clearfix">
+								<div class="content">
+									<span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
+									<h4>{{ page.title }}</h4>
+									<span class="meta"><!-- <a href="#">7 Comments</a> |  --><a href="#">By {% if page.author %} {{ page.author }}{% endif %}</a></span>
+									<div class="footer">
+										<p class="button-row blog-button-row"><a href="#" class="button solid-button dark">Prev</a><a href="#" class="button solid-button purple">Next</a></p>
+									</div>
+								</div> <!-- end .content -->
+								<div class="image" style="background-image: url('{% if page.blogimage %}{{page.blogimage}}{%endif%}');"></div>
+							</header> <!-- end .blog-header -->
+							<div class="blog-post">
+								<div class="blog-post-content">
+										{{content}}
+										</div> <!-- end .blog-post-content -->
+								<!-- <div class="blog-post-comments">
+									<h4>7 Comments</h4>
+									<div class="comment">
+										<div class="inner clearfix">
+											<div class="image"><img src="images/comment01.jpg" alt="alt text" class="img-responsive"></div>
+											<div class="content">
+												<h5>Stone Gold</h5>
+												<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placey eat facere possimus, omnis voluptas assumenda est.</p>
+												<span class="meta">25 March 2015 - 9.00AM</span>
+												<a href="#" class="reply">Reply<i class="fa fa-reply"></i></a>
+											</div> end .content
+										</div> end .inner
+										<div class="comment">
+											<div class="inner clearfix">
+												<div class="image"><img src="images/comment02.jpg" alt="alt text" class="img-responsive"></div>
+												<div class="content">
+													<h5>Anna Salina</h5>
+													<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placey eat facere possimus, omnis voluptas assumenda est.</p>
+													<span class="meta">25 March 2015 - 9.00AM</span>
+													<a href="#" class="reply">Reply<i class="fa fa-reply"></i></a>
+												</div> end .content
+											</div> end .inner
+										</div> end .comment
+									</div> end .comment
+									<div class="comment">
+										<div class="inner clearfix">
+											<div class="image"><img src="images/comment03.jpg" alt="alt text" class="img-responsive"></div>
+											<div class="content">
+												<h5>Tom Cruis</h5>
+												<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placey eat facere possimus, omnis voluptas assumenda est.</p>
+												<span class="meta">25 March 2015 - 9.00AM</span>
+												<a href="#" class="reply">Reply<i class="fa fa-reply"></i></a>
+											</div> end .content
+										</div> end .inner
+									</div> end .comment
+								</div> end .blog-post-comments
+								<div class="leave-comment">
+									<h4>Leave A Comment</h4>
+									<div class="inner">
+										<form action="#" method="post" class="form-horizontal">
+											<div class="form-group">
+												<label class="col-sm-2 control-label">Name</label>
+												<div class="col-sm-10">
+													<input type="text" class="contact-name" name="contact-name" />
+												</div> end .col-sm-10
+											</div> end .form-group
+											<div class="form-group">
+												<label class="col-sm-2 control-label">Email</label>
+												<div class="col-sm-10">
+													<input type="email" class="contact-email" name="contact-email" />
+												</div> end .col-sm-10
+											</div> end .form-group
+											<div class="form-group">
+												<label class="col-sm-2 control-label">Message</label>
+												<div class="col-sm-10">
+													<textarea name="contact-message" class="contact-message" rows="3"></textarea>
+												</div> end .col-sm-10
+											</div> end .form-group
+											<div class="form-group">
+												<div class="col-sm-10 col-sm-offset-2">
+													<button type="submit" class="button solid-button purple">Send Message</button>
+												</div> end .col-sm-10
+											</div> end .form-group
+										</form>
+									</div> end .inner
+								</div> end .leave-comment
+															 -->
+							</div> <!-- end .blog-post -->
+							<div class="blog-details">
+								<div class="section">
+									<h5>Author Details</h5>
+									<div class="author">
+										<div class="image"><img src="{%if page.authorimage %}{{page.authorimage}}{%endif%}" alt="alt text" class="img-responsive"></div>
+										<span class="title">{%if page.author %}{{page.author}}{%endif%}</span>
+										<p>{%if page.authorinfo %}{{page.authorinfo}}{%endif%}</p>
+									</div>
+								</div> <!-- end .section -->
+								<div class="section">
+									<h5>Share Post</h5>
+									<div class="social-icons">
+										<a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+										<a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+										<a href="#" class="social-icon"><i class="fa fa-google-plus"></i></a>
+										<a href="#" class="social-icon"><i class="fa fa-behance"></i></a>
+										<a href="#" class="social-icon"><i class="fa fa-dribbble"></i></a>
+									</div> <!-- end .social-icons -->
+								</div> <!-- end .section -->
+								<div class="section">
+									<h5>Tags</h5>
+									<div class="tags"><a href="#">Music</a><span>|</span><a href="#">Mobile</a><span>|</span><a href="#">Tablet</a><span>|</span><a href="#">Live</a></div>
+								</div> <!-- end .section -->
+							</div> <!-- end .blog-details -->
+						</div> <!-- end .single-blog-post -->
+					</div> <!-- end .container -->
+				</section>

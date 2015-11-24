@@ -1,0 +1,14 @@
+# Site settings
+title: Sility
+email: sility@example.com
+description: > # this means to ignore newlines until "baseurl:"
+Sility - Material Design Vcard & CV HTML Template
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rteja91.github.io" # the base hostname & protocol for your site
+twitter_username: rteja91
+github_username:  rteja91
+
+# Build settings
+markdown: kramdown
+sass:
+    sass_dir: _sass

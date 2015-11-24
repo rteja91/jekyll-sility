@@ -1,0 +1,23 @@
+<head>
+ 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="author" content="Sility "> 
+    <meta property="og:title" content="Sility - Material Design Vcard & CV HTML Template"/>
+    <meta property="og:description" content="minimal html cv resume template,signature resume cv portfolio html template" />
+    <meta property="og:url" content="http://raviteja.gangineni.com" />
+    <meta property="og:site_name" content="Sility - Material Design Vcard & CV HTML Template"/>
+    <meta property="og:image" content="http://raviteja.gangineni.com/ogp.jpg" />
+
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>  
+ 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link href="{{ "/font/material-design-iconic-font/css/material-design-iconic-font.min.css" | prepend: site.url }}" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="{{ "/font/ionicons/css/ionicons.min.css" | prepend: site.url }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>
