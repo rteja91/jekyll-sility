@@ -15,7 +15,7 @@ layout: default
 										<p class="button-row blog-button-row"><a href="#" class="button solid-button dark">Prev</a><a href="#" class="button solid-button purple">Next</a></p>
 									</div>
 								</div> <!-- end .content -->
-								<div class="image" style="background-image: url('{% if page.blogimage %}{{page.blogimage}}{%endif%}');"></div>
+								<div class="image" style="background-image: url('{{ site.url }}{% if page.blogimage %}{{page.blogimage}}{%endif%}');"></div>
 							</header> <!-- end .blog-header -->
 							<div class="blog-post">
 								<div class="blog-post-content">

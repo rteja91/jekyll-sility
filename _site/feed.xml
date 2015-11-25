@@ -3,10 +3,10 @@
   <channel>
     <title>Sility</title>
     <description>Sility - Material Design Vcard &amp; CV HTML Template</description>
-    <link>http://rteja91.github.io//</link>
-    <atom:link href="http://rteja91.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Nov 2015 23:06:02 +0530</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2015 23:06:02 +0530</lastBuildDate>
+    <link>http://raviteja.gangineni.com/jekyll-sility/</link>
+    <atom:link href="http://raviteja.gangineni.com/jekyll-sility/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 25 Nov 2015 09:09:34 +0530</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2015 09:09:34 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,8 +23,8 @@ voluptatem accusantium doloremque laudanto tam rem aperiam, eaque ipsa quae. ab 
 
 </description>
         <pubDate>Mon, 21 Jul 2008 17:51:29 +0530</pubDate>
-        <link>http://rteja91.github.io//work/portfolio/2008/07/21/Sample-work-1.html</link>
-        <guid isPermaLink="true">http://rteja91.github.io//work/portfolio/2008/07/21/Sample-work-1.html</guid>
+        <link>http://raviteja.gangineni.com/jekyll-sility/work/portfolio/2008/07/21/Sample-work-1.html</link>
+        <guid isPermaLink="true">http://raviteja.gangineni.com/jekyll-sility/work/portfolio/2008/07/21/Sample-work-1.html</guid>
         
         
         <category>work</category>
@@ -46,8 +46,8 @@ voluptatem accusantium doloremque laudanto tam rem aperiam, eaque ipsa quae. ab 
 
 </description>
         <pubDate>Mon, 21 Jul 2008 17:51:29 +0530</pubDate>
-        <link>http://rteja91.github.io//blog/blogpost/2008/07/21/Sample-post.html</link>
-        <guid isPermaLink="true">http://rteja91.github.io//blog/blogpost/2008/07/21/Sample-post.html</guid>
+        <link>http://raviteja.gangineni.com/jekyll-sility/blog/blogpost/2008/07/21/Sample-post.html</link>
+        <guid isPermaLink="true">http://raviteja.gangineni.com/jekyll-sility/blog/blogpost/2008/07/21/Sample-post.html</guid>
         
         
         <category>blog</category>

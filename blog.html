@@ -14,16 +14,16 @@ permalink: /blog/
                         <div class="blog-post {%if post.imagepos %} {{post.imagepos}} {%endif%}">
                             <div class="inner">
                             	{%if post.blogimage %}
-                                <a href="{{ post.url | prepend: site.baseurl }}">
-                                    <div class="image" style="background-image: url('{{post.blogimage}}');"></div>
+                                <a href="{{ post.url | prepend: site.url }}">
+                                    <div class="image" style="background-image: url('{{ site.url }}{{post.blogimage}}');"></div>
                                 </a>
                                 {%endif%}
                                 <div class="content">
                                     <span class="date">{{post.date | date: "%b %-d, %Y" }}</span>
-                                    <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                                    <h4><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h4>
                                     <footer>
-                                        <span class="comments-link"><a href="{{ post.url | prepend: site.baseurl }}">3 Comments</a></span>
-                                        <span class="share-link"><a href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-share-alt"></i></a></span>
+                                        <span class="comments-link"><a href="{{ post.url | prepend: site.url }}">3 Comments</a></span>
+                                        <span class="share-link"><a href="{{ post.url | prepend: site.url }}"><i class="fa fa-share-alt"></i></a></span>
                                     </footer>
                                 </div>
                                 <!-- end .content -->
@@ -145,24 +145,3 @@ permalink: /blog/
             </section>
             <!-- end #section1 -->
 
-
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.categories['blog'] %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
