@@ -1,11 +1,10 @@
 # jekyll-sility
 This Repository Contains Jekyll Blog Structure Which Implements Sility Resume VCard html material Design HTML template
+This can be as is used to Host a blog and Portfolio Site Using Github Pages
 
-this can be as is used to Host a blog and Portfolio Site Using Github Pages
-
-*In Progress*
-  Work Page and Work Posts
-  Comments and Tags 
+##In Progress
+  -Work Page and Work Posts
+  -Comments and Tags 
 
 # Jekyll Blogging with Sility - vCard, CV & Resume HTML Template
 **For Demo** : http://raviteja.gangineni.com/jekyll-sility/
@@ -36,8 +35,9 @@ HTML Design was utilized from http://webtechfreaky.github.io/Sility-Resume-HTML
 
 ---
 ### Colors
+####To Change Colors Just Need to Change Base Color Value ($basecolor) in _sass/_color.scss
 ![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/color.jpg)
-  *To Change Colors Just Need to Change Base Color Value in _sass/_color.scss*
+  
 
 ## Change Log
 *25 November 2015*
