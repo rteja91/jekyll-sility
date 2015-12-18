@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work 
+title: Work
 permalink: /work/
 ---
 
@@ -18,142 +18,25 @@ permalink: /work/
                             <button class="button solid-button white-purple small" data-filter=".websites">Websites</button>
                         </div>
                         <div id="portfolio" class="portfolio">
-                            <div class="item branding print">
-                                <img src="/images/portfolio01.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 01</span>
-                                        <span class="category">Branding, Print</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
+                        	    {% for work in site.categories['work'] %}
+								    <div class="item {{work.workCat}}">
+								        <img src="{{ site.url }}{{work.portfolioimg}}" alt="alt text" class="img-responsive">
+								        <a href="{{ work.url | prepend: site.baseurl }}" class="overlay">
+								            <div class="background"> </div>
+								            <div class="meta">
+								                <span class="title">{{work.title}}</span>
+								                <span class="category">{{work.workCat}}</span>
+								            </div>
+								            <!-- end .meta -->
+								        </a>
+								        <!-- end .overlay -->
+								    </div>
+
+    							{%endfor%}
                             <!-- end .item -->
-                            <div class="item motion">
-                                <img src="/images/portfolio02.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 02</span>
-                                        <span class="category">Motion</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                            <div class="item print">
-                                <img src="/images/portfolio03.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 03</span>
-                                        <span class="category">Print</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                            <div class="item print branding websites">
-                                <img src="/images/portfolio04.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 04</span>
-                                        <span class="category">Branding, Websites</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                            <div class="item print branding">
-                                <img src="/images/portfolio05.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 05</span>
-                                        <span class="category">Print, Branding</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                            <div class="item motion">
-                                <img src="/images/portfolio06.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 06</span>
-                                        <span class="category">Motion</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                            <div class="item motion">
-                                <img src="/images/portfolio07.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 07</span>
-                                        <span class="category">Motion</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                            <div class="item print">
-                                <img src="/images/portfolio08.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 08</span>
-                                        <span class="category">Print</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                            <div class="item motion">
-                                <img src="/images/portfolio09.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 09</span>
-                                        <span class="category">Motion</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                            <div class="item websites">
-                                <img src="/images/portfolio10.jpg" alt="alt text" class="img-responsive">
-                                <a href="single-portfolio.html" class="overlay">
-                                    <div class="background"></div>
-                                    <div class="meta">
-                                        <span class="title">Portfolio Item - 10</span>
-                                        <span class="category">Websites</span>
-                                    </div>
-                                    <!-- end .meta -->
-                                </a>
-                                <!-- end .overlay -->
-                            </div>
-                            <!-- end .item -->
-                        </div>
-                        <!-- end .portfolio -->
-                        <div class="portfolio-load-more">
-                            <a href="single-portfolio.html" class="button solid-button white icon-right">Load More Work<i class="md-refresh"></i></a>
-                        </div>
-                        <!-- end .portfolio-load-more -->
+                       
+                            
+                            
                     </div>
                     <!-- end .portfolio-wrapper -->
                 </div>
@@ -162,19 +45,6 @@ permalink: /work/
             <!-- end #section1 -->
 <div class="home">
 
-  <h1 class="page-heading">works</h1>
-
-  <ul class="post-list">
-    {% for work in site.categories['work'] %}
-      <li>
-        <span class="post-meta">{{ work.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
