@@ -9,5 +9,8 @@ github_username:  rteja91
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-sitemap
 sass:
     sass_dir: _sass
+    
