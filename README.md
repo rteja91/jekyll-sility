@@ -2,9 +2,6 @@
 This Repository Contains Jekyll Blog Structure Which Implements Sility Resume VCard html material Design HTML template
 This can be as is used to Host a blog and Portfolio Site Using Github Pages
 
-##In Progress
-  -Work Page and Work Posts
-  -Comments and Tags 
 
 # Jekyll Blogging with Sility - vCard, CV & Resume HTML Template
 **For Demo** : http://raviteja.gangineni.com/jekyll-sility/
@@ -43,16 +40,21 @@ HTML Design was utilized from http://webtechfreaky.github.io/Sility-Resume-HTML
 *25 November 2015*
 
 > Initial Release
-The Following are the Screenshots of Features
 
-## Screenshots
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image1.png)
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image2.png)
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image3.png)
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image4.png)
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image5.png)
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image6.png)
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image7.png)
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image8.png)
-![Image](https://raw.githubusercontent.com/webtechfreaky/Sility-Resume-HTML/master/image9.png)
+*19 December 2015*
+> completed Portfolio updating in Jekyll style. 
+
+#How to Create an Item for blog
+
+Add file similar to sample post in *blog/_posts* folder fill in all the properties needed for Post to render above  ..... in the post file. and commit it to github.
+
+#How to create an Item for Work 
+
+Add file similar to sample work in *work/_posts* folder fill in all the properties needed for work to render above  ..... in the work file. and commit it to github.
+
+for Any Queries or issues raise in github. 
+
+GEM Dependencies:
+
+jekyll-sitemap 
 
