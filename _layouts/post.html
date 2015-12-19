@@ -50,5 +50,58 @@ layout: default
 				</section>
 				{%endif%}
 				{%if page.type == "work" %}
+				<!-- Single Portfolio -->
+				<section class="active">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-8">
+								<div class="portfolio-slider owl-carousel">
+									{% for img in page.sliderimages %}
+									<div><img src="{{site.url}}{{img}}" alt="alt text" class="img-responsive"></div>
+									{%endfor%}
+									
+								</div> <!-- end .portfolio-slider -->
+								<div class="row related-images">
+									{%for relimg in page.relimages %}
+									<div class="col-sm-6"><a href="#"><img src="{{site.url}}{{relimg}}" alt="alt text" class="img-responsive"></a></div>
+									{%endfor%}
+								</div> <!-- end .row -->
+							</div> <!-- end .col-sm-8 -->
+							<div class="col-sm-4">
+								<p class="button-row portfolio-button-row">
+									 {% if paginator.previous_page %}
+									<a href="{{ paginator.previous_page_path }}" class="button solid-button white">Prev Project</a>
+									{%endif%}
+									{% if paginator.next_page %}
+									<a href="#" class="button solid-button purple">Next Project</a>
+									{%endif%}
+								</p>
+								<div class="portfolio-details">
+									<h4>{{page.projecttitle}}</h4>
+									<p>{{page.projectdesc}}</p>
+									<div class="portfolio-meta">
+										<span>Date:</span>
+										{{page.projectdate}}
+									</div> <!-- end .portfolio-meta -->
+									<div class="portfolio-meta">
+										<span>Client:</span>
+										{{page.projectclient}}
+									</div> <!-- end .portfolio-meta -->
+									<div class="portfolio-meta">
+										<span>Agency:</span>
+										{{page.projectagency}}
+									</div> <!-- end .portfolio-meta -->
+									<div class="portfolio-meta">
+										<span>Type:</span>
+										{{page.projecttype}}
+									</div> <!-- end .portfolio-meta -->
+									<p><a href="{{site.url}}{{page.projectlink}}" class="button solid-button purple">Visit Website</a></p>
+								</div> <!-- end .portfolio-details -->
+							</div> <!-- end .col-sm-4 -->
+						</div> <!-- end .row -->
+					</div> <!-- end .container -->
+				</section> <!-- end #section1 -->
+
+				
 				
 				{%endif%}
